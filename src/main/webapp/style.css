@@ -1,0 +1,114 @@
+*{
+    background-color: var(--gray-2);
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --black: rgb(23, 23, 23);
+    --black-2: rgb(17, 18, 18);
+    --yellow: rgb(248, 183, 32);
+    --silver: rgb(166, 166, 166);
+    --gray: rgb(204, 204, 204);
+    --gray-2: rgb(245, 241, 235);
+    --gray-x: rgb(186, 186, 186);
+    --light-green: rgba(26, 183, 157, 0.15);
+    --gray-xy: rgb(230, 230, 230);
+    --gray-3: rgb(128, 128, 128);
+    --black-8: rgba(0, 0, 0, 0.8);
+    --white-5: rgba(255, 255, 255, 0.5);
+    --black-5: rgba(0, 0, 0, 0.5);
+    --black-3: rgba(0, 0, 0, 0.3);
+    --light-green-2: rgb(26, 183, 157);
+    --white: rgb(255, 255, 255);
+}
+:root{
+    --radius-pill: 500px;
+    --radius-circle: 50%;
+    --radius-3: 3px;
+    --radius-5: 5px;
+    --radius-10: 10px;
+}
+:root{
+    --ff-league_spartan: 'League Spartan', sans-serif;
+    --ff-poppins: 'Poppins', sans-serif; 
+
+    --fs-1: 4.2rem;
+    --fs-2: 3.2rem;
+    --fs-3: 2.3rem;
+    --fs-4: 1.8rem;
+    --fs-5: 1.5rem;
+    --fs-6: 1.4rem;
+    --fs-7: 1.3rem;
+
+    --fw-500: 500;
+    --fw-600: 600;
+}
+/* -------main section-------- */
+.logo{
+    position: relative;
+    top: 5px;
+    right: 5px;
+    background-color: var(--white);
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    padding: 0;
+}
+.first{
+    background-color: var(--white);
+    height: 450px;
+    width: 550px;
+    position: relative;
+    left: 27rem;
+    top: 5rem;
+    text-align: center;
+    border: 0;
+    border-radius:20px;
+}
+.first_h1{
+    background-color: white;
+    padding-top: 15px;
+    font-family: var(--ff-league_spartan);
+    font-size: 20px;
+    font-weight: 600;
+}
+.first_p{
+    display:block;
+    background-color: var(--white);
+    padding-top: 30px;
+    margin-bottom: 60px;
+    margin-left: 15px;
+    font-family: var(--ff-poppins);
+    font-size: 25px;
+}
+.inputs{
+    height: 20px;
+    width:360px ;
+    border: 0;
+    border-radius: var(--radius-5);
+    padding: 12px 15px;
+    margin-bottom: 30px;
+
+}
+button {
+    color: #ffffff;
+    background-color: var(--light-green-2);
+    font-size: 20px;
+    border: 0px solid #2d63c8;
+    border-radius: 5px;
+    padding: 10px 168px;
+    cursor: pointer;
+}
+
+p{
+    font-family: var(--ff-league_spartan);
+}
+
+.register{
+    background-color: var(--white);
+    margin-top: 20px;
+}
+#register{
+    color: var(--light-green-2);
+    background-color: var(--white);
+}
